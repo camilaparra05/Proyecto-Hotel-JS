@@ -1,0 +1,398 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Habitación 1",
+      "capacity": 2,
+      "price": 100,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-10",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Habitación 2",
+      "capacity": 1,
+      "price": 80,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-15",
+      "services": [
+        "Wi-Fi"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Habitación 3",
+      "capacity": 2,
+      "price": 110,
+      "availableFrom": "2025-01-05",
+      "availableTo": "2025-01-20",
+      "services": [
+        "Wi-Fi",
+        "TV",
+        "Aire acondicionado"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Habitación 4",
+      "capacity": 3,
+      "price": 150,
+      "availableFrom": "2025-01-03",
+      "availableTo": "2025-01-15",
+      "services": [
+        "Wi-Fi",
+        "Aire acondicionado"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Habitación 5",
+      "capacity": 4,
+      "price": 180,
+      "availableFrom": "2025-01-10",
+      "availableTo": "2025-01-25",
+      "services": [
+        "Wi-Fi",
+        "TV",
+        "Cama extra"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Habitación 6",
+      "capacity": 2,
+      "price": 120,
+      "availableFrom": "2025-01-05",
+      "availableTo": "2025-01-20",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Habitación 7",
+      "capacity": 3,
+      "price": 160,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-10",
+      "services": [
+        "Wi-Fi",
+        "Cama extra",
+        "TV"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Habitación 8",
+      "capacity": 1,
+      "price": 75,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-12",
+      "services": [
+        "Wi-Fi"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Habitación 9",
+      "capacity": 2,
+      "price": 105,
+      "availableFrom": "2025-01-15",
+      "availableTo": "2025-01-30",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Habitación 10",
+      "capacity": 4,
+      "price": 190,
+      "availableFrom": "2025-01-02",
+      "availableTo": "2025-01-20",
+      "services": [
+        "Wi-Fi",
+        "Cama extra",
+        "Aire acondicionado"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Habitación 11",
+      "capacity": 3,
+      "price": 140,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-10",
+      "services": [
+        "Wi-Fi",
+        "Cama extra"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Habitación 12",
+      "capacity": 4,
+      "price": 160,
+      "availableFrom": "2025-01-05",
+      "availableTo": "2025-01-15",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Habitación 13",
+      "capacity": 5,
+      "price": 200,
+      "availableFrom": "2025-01-10",
+      "availableTo": "2025-01-25",
+      "services": [
+        "Wi-Fi",
+        "Cama extra",
+        "Aire acondicionado",
+        "TV"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Habitación 14",
+      "capacity": 4,
+      "price": 170,
+      "availableFrom": "2025-01-12",
+      "availableTo": "2025-01-20",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Habitación 15",
+      "capacity": 2,
+      "price": 120,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-18",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Habitación 16",
+      "capacity": 3,
+      "price": 150,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-20",
+      "services": [
+        "Wi-Fi",
+        "Cama extra"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Habitación 17",
+      "capacity": 4,
+      "price": 180,
+      "availableFrom": "2025-01-10",
+      "availableTo": "2025-01-20",
+      "services": [
+        "Wi-Fi",
+        "Aire acondicionado"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Habitación 18",
+      "capacity": 2,
+      "price": 130,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-25",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Habitación 19",
+      "capacity": 4,
+      "price": 170,
+      "availableFrom": "2025-01-05",
+      "availableTo": "2025-01-15",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Habitación 20",
+      "capacity": 3,
+      "price": 160,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-15",
+      "services": [
+        "Wi-Fi",
+        "TV"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Habitación 21",
+      "capacity": 5,
+      "price": 220,
+      "availableFrom": "2025-01-02",
+      "availableTo": "2025-01-25",
+      "services": [
+        "Wi-Fi",
+        "Cama extra",
+        "Aire acondicionado"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Habitación 22",
+      "capacity": 4,
+      "price": 190,
+      "availableFrom": "2025-01-10",
+      "availableTo": "2025-01-25",
+      "services": [
+        "Wi-Fi",
+        "Cama extra",
+        "TV"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Habitación 23",
+      "capacity": 5,
+      "price": 250,
+      "availableFrom": "2025-01-01",
+      "availableTo": "2025-01-30",
+      "services": [
+        "Wi-Fi",
+        "Cama extra",
+        "Aire acondicionado",
+        "TV"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Habitación 24",
+      "capacity": 3,
+      "price": 170,
+      "availableFrom": "2025-01-02",
+      "availableTo": "2025-01-15",
+      "services": [
+        "Wi-Fi",
+        "Cama extra"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Habitación 25",
+      "capacity": 5,
+      "price": 250,
+      "availableFrom": "2025-01-10",
+      "availableTo": "2025-01-30",
+      "services": [
+        "Wi-Fi",
+        "Cama extra",
+        "Aire acondicionado"
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "username": "camila",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "username": "cami",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "username": "camila",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "Camila",
+      "password": "3456",
+      "id": 4
+    },
+    {
+      "username": "camila",
+      "password": "paa",
+      "id": 5
+    },
+    {
+      "usuario": "cami",
+      "contrasena": "paa",
+      "id": 6
+    },
+    {
+      "usuario": "cami",
+      "contrasena": "paa",
+      "id": 6
+    },
+    {
+      "usuario": "cami",
+      "contrasena": "paa",
+      "id": 6
+    },
+    {
+      "usuario": "cami",
+      "contrasena": "paa",
+      "id": 6
+    },
+    {
+      "usuario": "maria",
+      "contrasena": "123",
+      "id": 9
+    },
+    {
+      "username": "laura",
+      "password": "1234",
+      "id": 10
+    },
+    {
+      "username": "karina",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "username": "camila",
+      "password": "123",
+      "id": 12
+    }
+  ],
+  "reservas": [
+    {
+      "roomId": "5",
+      "roomName": "Habitación 5",
+      "checkIn": "2025-01-17",
+      "checkOut": "2025-01-18",
+      "guests": 2,
+      "id": 1
+    },
+    {
+      "roomId": "2",
+      "roomName": "Habitación 2",
+      "checkIn": "2025-01-11",
+      "checkOut": "2025-01-07",
+      "guests": 1,
+      "id": 2
+    }
+  ]
+}

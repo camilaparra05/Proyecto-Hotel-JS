@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Rincón de Camila - Habitaciones</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class=" bg-black font-sans text-white">
+
+     <header class="bg-gray-800 text-white py-4">
+  <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+    <img src="imagenes/logo1.jpg" alt="Logo" class="w-36">
+    <nav>
+      <ul class="flex space-x-10 text-lg">
+        <li><a href="reservas.html" class="hover:text-orange-500">Reservas</a></li>
+        <li><a href="inicio.html" class="hover:text-orange-500">Inicio</a></li>
+        <li><a href="habitaciones.html" class="hover:text-orange-500">Habitaciones</a></li>
+        <li><a href="contacto.html" class="hover:text-orange-500">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <section id="habitaciones" class="py-16">
+    <div class="max-w-screen-xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">Habitaciones</h2>
+
+      <div id="habitaciones-container" class="space-y-12">
+        
+
+        <div class="flex flex-col md:flex-row space-y-6 md:space-y-0">
+          <div class="md:w-1/2">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imagenes/habitacion1.webp" class="d-block w-100 object-cover h-96" alt="Habitación Deluxe 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/506256789.jpg" class="d-block w-100 object-cover h-96" alt="Habitación Deluxe 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/habitacion3.jpeg"d-block w-100 object-cover h-96" alt="Habitación Deluxe 3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="md:w-1/2 space-y-6 text-left">
+            <h3 class="text-3xl font-semibold">Habitación Deluxe</h3>
+            <p class="text-lg">Amplia habitación con vista al mar, cama King size y baño privado.</p>
+            <p class="text-xl font-bold">$120.000 por noche</p>
+            <a href="reservas.html?habitacionId=1" class="btn btn-warning text-white px-8 py-2 rounded-md">Reservar</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row space-y-6 md:space-y-0">
+          <div class="md:w-1/2">
+            <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imagenes/habitacion2.jpg" class="d-block w-100 object-cover h-96" alt="Habitación Standard 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/4543763.png" class="d-block w-100 object-cover h-96" alt="Habitación Standard 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/habitacion3.jpeg" class="d-block w-100 object-cover h-96" alt="Habitación Standard 3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="md:w-1/2 space-y-6 text-left">
+            <h3 class="text-3xl font-semibold">Habitación Standard</h3>
+            <p class="text-lg">Confortable habitación con cama doble, perfecta para estancias cortas.</p>
+            <p class="text-xl font-bold">$80.000 por noche</p>
+            <a href="reservas.html?habitacionId=2" class="btn btn-warning text-white px-8 py-2 rounded-md">Reservar</a>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row space-y-6 md:space-y-0">
+          <div class="md:w-1/2">
+            <div id="carouselExample3" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imagenes/habitacion3.jpeg" class="d-block w-100 object-cover h-96" alt="Habitación Premium 1">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/habitacion3.jpeg" class="d-block w-100 object-cover h-96" alt="Habitación Premium 2">
+                </div>
+                <div class="carousel-item">
+                  <img src="imagenes/543006275.jpg" class="d-block w-100 object-cover h-96" alt="Habitación Premium 3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="md:w-1/2 space-y-6 text-left">
+            <h3 class="text-3xl font-semibold">Habitación Premium</h3>
+            <p class="text-lg">Habitación de lujo con jacuzzi, minibar y terraza privada.</p>
+            <p class="text-xl font-bold">$200.000 por noche</p>
+            <a href="reservas.html?habitacionId=3" class="btn btn-warning text-white px-8 py-2 rounded-md">Reservar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class=" bg-black text-white ">
+        <div class="max-w-screen-xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Servicios</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="service-card p-6 bg-gray-800 rounded-lg shadow-md">
+                    <img src="imagenes/png-clipart-wi-fi-icon-wifi-logo-miscellaneous-symbols.png" alt="Wi-Fi" class="w-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold">Wi-Fi Gratuito</h3>
+                    <p class="mt-4">Conexión rápida en todas las áreas del hotel.</p>
+                </div>
+                <div class="service-card p-6 bg-gray-800 rounded-lg shadow-md">
+                    <img src="imagenes/4543763.png" alt="Desayuno" class="w-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold">Desayuno Incluido</h3>
+                    <p class="mt-4">Comienza el día con un delicioso desayuno incluido.</p>
+                </div>
+                <div class="service-card p-6 bg-gray-800 rounded-lg shadow-md">
+                    <img src="imagenes/80930161-ilustración-de-signo-de-coche-vector-icono-blanco-con-sombra-suave-sobre-fondo-transparente.jpg" alt="Traslado" class="w-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold">Traslado Privado</h3>
+                    <p class="mt-4">Traslado exclusivo desde y hacia el aeropuerto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  <a href="https://wa.me/573222246651" target="_blank" 
+    class="fixed bottom-4 left-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-6 h-6">
+  </a>
+
+
+  <footer class="bg-black text-white py-6">
+    <div class="max-w-screen-xl mx-auto text-center">
+      <p>&copy; 2025 El Rincón de Camila | Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="habitacion.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

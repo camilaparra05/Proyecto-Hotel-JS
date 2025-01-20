@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-gray-100">
+    <header class="bg-gray-800 text-white py-4">
+  <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+    <img src="imagenes/logo1.jpg" alt="Logo" class="w-36">
+    <nav>
+      <ul class="flex space-x-10 text-lg">
+        <li><a href="inicio.html" class="hover:text-orange-500">Inicio</a></li>
+        <li><a href="habitaciones.html" class="hover:text-orange-500">Habitaciones</a></li>
+        <li><a href="reservas.html" class="hover:text-orange-500">Reservas</a></li>
+        <li><a href="contacto.html" class="hover:text-orange-500">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <header class="bg-gray-800 text-white p-4">
+    <h1 class="text-center text-2xl font-bold">Contacto</h1>
+  </header>
+
+  <main class="container mx-auto p-6 space-y-10">
+
+    <section class="bg-gray-900 shadow-md p-6 rounded-lg">
+      <h2 class="text-xl font-bold mb-4">Síguenos en nuestras redes sociales</h2>
+      <ul class="space-y-2">
+        <li>
+          <a href="https://instagram.com/parracamila05" target="_blank" 
+            class="flex items-center space-x-2 hover:text-blue-500">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="w-6 h-6">
+            <span>Instagram: @parracamila05</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://facebook.com/maria.camila.parra.sierra" target="_blank" 
+            class="flex items-center space-x-2 hover:text-blue-500">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Facebook_icon.svg" alt="Facebook" class="w-6 h-6">
+            <span>Facebook: Maria Camila Parra Sierra</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="bg-gray-900 shadow-md p-6 rounded-lg">
+      <h2 class="text-xl font-bold mb-4">Envíanos un mensaje</h2>
+      <form id="contactForm" class="space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium">Nombre</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre"
+            class="w-full border-gray-700 bg-gray-800 text-gray-100 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="Tu correo"
+            class="w-full border-gray-700 bg-gray-800 text-gray-100 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500">
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium">Mensaje</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tu mensaje"
+            class="w-full border-gray-700 bg-gray-800 text-gray-100 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"></textarea>
+        </div>
+        <button type="submit"
+          class="bg-blue-600 text-white py-2 px-4 rounded-md shadow-md hover:bg-blue-700 transition">
+          Enviar
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <a href="https://wa.me/573222246651" target="_blank" 
+    class="fixed bottom-4 left-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-6 h-6">
+  </a>
+
+  <footer class="bg-gray-800 text-gray-400 text-center p-4">
+    <p>&copy; 2025 María Camila Parra Sierra. Todos los derechos reservados.</p>
+  </footer>
+</body>
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault(); 
+
+    const name = document.getElementById("name").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    if (!name | !message) {
+      alert("Por favor, completa todos los campos antes de enviar el mensaje.");
+      return;
+    }
+
+    alert("¡Gracias por contactarnos! Tu mensaje ha sido enviado.");
+ 
+  });
+
+
+</script>
+
+</html>
+

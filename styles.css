@@ -1,0 +1,36 @@
+
+.carousel-inner img {
+    object-fit: cover;
+    height: 100vh;
+}
+
+.service-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+#hero {
+    position: relative;
+    height: 100vh;
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    height: 500px;
+
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+#comodidades-container .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

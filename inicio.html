@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón de Camila</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-black font-sans text-white">
+  
+    <header class="bg-gray-800 text-white p-6">
+        <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+            <img src="imagenes/logo1.jpg" alt="El Rincón de Camila" class="w-36">
+            <nav>
+                <ul class="flex space-x-10 text-lg">
+                    <li><a href="habitaciones.html" class="hover:text-orange-500">Habitaciones</a></li>
+                    <li><a href="contacto.html" class="hover:text-orange-500">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="reservas.html" class="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg text-lg">Reservar</a>
+        </div>
+    </header>
+    <section id="hero" class="relative w-full h-screen overflow-hidden">
+        <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video src=""class="d-block w-100 h-full object-cover" alt="Habitación 1"></video> 
+                </div>
+               
+        </div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white animate__animated animate__fadeIn">
+            <h1 class="text-6xl font-bold">Bienvenido a El Rincón de Camila</h1>
+            <p class="text-lg mt-4">Disfruta de una experiencia única en el nuestro hotel</p>
+        </div>
+    </section>
+
+
+    <section id="habitaciones" class="py-16 bg-black">
+        <div class="max-w-screen-xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Nuestras Habitaciones</h2>
+            <div class="carousel slide" id="carouselHabitaciones" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        <div class="flex justify-center">
+                            <img src="imagenes/habitacion2.jpg" alt="Habitación Deluxe" class="w-72 h-72 object-cover rounded-lg shadow-md">
+                            <div class="ml-8">
+                                <h3 class="text-2xl font-semibold">Habitación Deluxe</h3>
+                                <p class="mt-4 text-gray-600">Disfruta de una experiencia única en nuestras habitaciones de lujo.</p>
+                                <p class="text-xl mt-2 font-bold">$120.000 por noche</p>
+                                <button id="botonDeluxe" class="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg mt-4">Ver Detalles</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flex justify-center">
+                            <img src="imagenes/habitacion1.webp" alt="Habitación Standard" class="w-72 h-72 object-cover rounded-lg shadow-md">
+                            <div class="ml-8">
+                                <h3 class="text-2xl font-semibold">Habitación Standard</h3>
+                                <p class="mt-4 text-gray-600">Habitación cómoda y funcional, ideal para viajes cortos.</p>
+                                <p class="text-xl mt-2 font-bold">$90.000 por noche</p>
+                                <button id="botonStandard" class="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg mt-4">Ver Detalles</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="flex justify-center">
+                            <img src="imagenes/habitacion3.jpeg" alt="Habitación Premium" class="w-72 h-72 object-cover rounded-lg shadow-md">
+                            <div class="ml-8">
+                                <h3 class="text-2xl font-semibold">Habitación Premium</h3>
+                                <p class="mt-4 text-gray-600">Habitación con vistas espectaculares y todos los servicios exclusivos.</p>
+                                <p class="text-xl mt-2 font-bold">$150.000 por noche</p>
+                                <button id="botonPremium" class="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg mt-4">Ver Detalles</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="py-16 bg-black">
+        <div class="max-w-screen-xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8"></h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <img src="imagenes/adc8f9_c7b77e5f8eeb487684c11f531b109790~mv2.jpg.avif" alt="Galería 1" class="w-full h-64 object-cover rounded-lg shadow-lg">
+                <img src="imagenes/images.jpeg" alt="Galería 2" class="w-full h-64 object-cover rounded-lg shadow-lg">
+                <img src="imagenes/premium_photo-1661962360690-e91cc0df88f1.jpeg" alt="Galería 3" class="w-full h-64 object-cover rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+    <section id="servicios" class=" bg-black text-white ">
+        <div class="max-w-screen-xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Servicios</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="service-card p-6 bg-gray-800 rounded-lg shadow-md">
+                    <img src="imagenes/png-clipart-wi-fi-icon-wifi-logo-miscellaneous-symbols.png" alt="Wi-Fi" class="w-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold">Wi-Fi Gratuito</h3>
+                    <p class="mt-4">Conexión rápida en todas las áreas del hotel.</p>
+                </div>
+                <div class="service-card p-6 bg-gray-800 rounded-lg shadow-md">
+                    <img src="imagenes/4543763.png" alt="Desayuno" class="w-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold">Desayuno Incluido</h3>
+                    <p class="mt-4">Comienza el día con un delicioso desayuno incluido.</p>
+                </div>
+                <div class="service-card p-6 bg-gray-800 rounded-lg shadow-md">
+                    <img src="imagenes/80930161-ilustración-de-signo-de-coche-vector-icono-blanco-con-sombra-suave-sobre-fondo-transparente.jpg" alt="Traslado" class="w-16 mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold">Traslado Privado</h3>
+                    <p class="mt-4">Traslado exclusivo desde y hacia el aeropuerto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<a href="https://wa.me/573222246651" target="_blank" 
+    class="fixed bottom-4 left-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-6 h-6">
+  </a>
+
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

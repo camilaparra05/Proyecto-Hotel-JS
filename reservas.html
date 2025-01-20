@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Rincón de Camila - Reserva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class=" bg-black text-white">
+
+    <header class="bg-gray-800 text-white py-4">
+  <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+    <img src="imagenes/logo1.jpg" alt="Logo" class="w-36">
+    <nav>
+      <ul class="flex space-x-10 text-lg">
+        <li><a href="inicio.html" class="hover:text-orange-500">Inicio</a></li>
+        <li><a href="habitaciones.html" class="hover:text-orange-500">Habitaciones</a></li>
+        <li><a href="reservas.html" class="hover:text-orange-500">Reservas</a></li>
+        <li><a href="contacto.html" class="hover:text-orange-500">Contacto</a></li>
+        <li><a href="mis reservas.html" class="hover:text-orange-500">Mis Reservas</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <section id="reservas" class=" text-black py-16">
+        <div class="max-w-screen-xl mx-auto bg-gray-800 p-8 shadow-lg rounded-lg">
+            <h2 class="text-3xl font-semibold text-center mb-8">Busca Disponibilidad</h2>
+
+            <form id="busqueda-form" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  
+                    <div class="space-y-2">
+                        <label for="checkin" class="font-semibold">Fecha de Entrada</label>
+                        <input type="date" id="checkin" name="checkin" class="w-full p-3 border border-gray-300 rounded-md" required>
+                    </div>
+
+                    <div class="space-y-2">
+                        <label for="checkout" class="font-semibold">Fecha de Salida</label>
+                        <input type="date" id="checkout" name="checkout" class="w-full p-3 border border-gray-300 rounded-md" required>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <label for="num-personas" class="font-semibold">Número de Personas</label>
+                    <input type="number" id="num-personas" name="num-personas" min="1" value="1"
+                        class="w-full p-3 border border-gray-300 rounded-md" required>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="bg-orange-500 text-white py-3 px-6 rounded-md">Buscar Disponibilidad</button>
+                </div>
+            </form>
+        </div>
+        <div class=" availableRooms"></div>
+    </section>
+
+    <section id="habitaciones" class="py-16 bg-black">
+        <div class="max-w-screen-xl mx-auto bg-black text-black text-center">
+            <h2 class="text-4xl text-white font-bold mb-8">Habitaciones Disponibles</h2>
+
+            <div id="habitaciones-container" class="bg-gray-800 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+               
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="max-w-screen-xl mx-auto text-center text-white">
+            <p>&copy; 2025 El Rincón de Camila | Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <a href="https://wa.me/573222246651" target="_blank" class="fixed bottom-4 left-4 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="w-6 h-6">
+</a>
+
+    <script src="reservas.js"></script>
+</body>
+
+</html>
